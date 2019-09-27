@@ -1,0 +1,151 @@
+/*----------------- Start of common css for all pages */
+
+body{
+			background-image: url("https://wallpaperaccess.com/full/666457.jpg");
+  			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+			/*https://images.unsplash.com/photo-1529753253655-470be9a42781?ixlib=rb-1.2.1&w=1000&q=80*/
+			/**/
+			/*https://scontent.fyxd1-1.fna.fbcdn.net/v/t1.15752-9/70745761_438121883473464_6489179707144142848_n.jpg?_nc_cat=111&_nc_oc=AQnF35qy29xb3p7mwQHDb287Rf1vBL4ZTK1OwiLbiYid7ykMyDqqPoK8bnHZZ5UDDt8SKpHFRdEwhpkWjFDqP8QW&_nc_ht=scontent.fyxd1-1.fna&oh=1fa1d28e226ee71dcc6a30c23f008a9b&oe=5E2B0EC7*/
+}
+
+html{
+	height: 100%;
+}	
+
+#mainNavBar .navbar-brand{
+	color: white;
+
+}
+
+#mainNavBar .nav-link{
+	color: white;
+}
+
+#mainNavBar .nav-link:hover{
+	color: red;
+	background-color: #332e2e;
+}
+
+#mainNavBar{
+	font-family: sans-serif;
+	font-weight: 600;
+}
+
+.navbar.scrolled{
+	background: #262424;
+	transition: background 1s;
+}
+
+/*--------------End of common css used for all pages */
+
+/*--------------Start of css used for home page only*/
+.placer{
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+
+#content{
+	
+	color: white;
+	padding-top: 25%;
+} 
+
+
+#content hr{
+	color: #212529;
+}
+
+.profilePic:hover{
+	display: inline;
+  	margin: 0 auto;
+  	margin-left: 0%; 
+  	max-width: 100%;
+
+}
+
+.image_cropper:hover {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 100%;
+    margin-left: 20%;
+    padding-bottom: 20%;
+}
+
+.image_cropper {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 100%;
+    margin-left: 30%;
+    padding-bottom: 20%;
+    transition: background-color 1s;
+}
+.profilePic {
+  	display: inline;
+  	margin: 0 auto;
+  	margin-left: 0%; 
+  	max-width: 100%;
+  	transition: background-color 1s;
+  	left: 10px;
+}
+
+#text{
+	margin-top: 5%;
+	position: relative;
+	text-align: center;
+	top:-200px;
+}
+.HomePic h1{
+	font-size: 3em;
+	font-family: sans-serif;
+	/*text-shadow: 0px 2px 1px black,
+				 0px 4px 20px grey,
+				 0px 1px 4px white;*/
+	color: white;
+	font-size: 40px;
+	font-weight: 600;
+
+}
+
+.HomePic p{
+	font-family: Varela Round;
+	font-size: 0.75rem;
+}
+
+.introCard hr{
+	width: 400px;
+	border: 1px solid #212529;
+	text-align: center;
+}
+
+/*--------------End of css used for home page only */
+.jumbotron{
+	padding: 2rem 2rem;
+}
+
+.card{
+	box-shadow: 0px 2px 1px black,
+				0px 4px 20px grey,
+				0px 1px 4px white;
+	display: block;
+}
+
+.AboutAndBasicInfoCard{
+	background-color: rgba(0,0,0,0.5);
+	color: black;
+	font-family: Varela Round;
+	height: 1000px;
+}
+
+.introCard{
+	margin-top: 1rem;
+	text-align: center;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+
+}

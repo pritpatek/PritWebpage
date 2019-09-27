@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prit Patel</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	
+	<link rel="stylesheet" type="text/css" href="HomeWebpage.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel:400,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg py-0 fixed-top navbar-dark" id="mainNavBar">
+	  		<a class="navbar-brand" href="#"><i class="fab fa-accusoft"></i> PRIT's </a>
+	  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	    		<span class="navbar-toggler-icon"></span>
+	  		</button>
+	  		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+	    		<ul class="navbar-nav">
+		      		<li class="nav-item active">
+		        		<a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+		      		</li>
+		      		<li class="nav-item">
+		        		<a class="nav-link" href="#">ABOUT ME</a>
+		      		</li>
+		      		<li class="nav-item">
+		        		<a class="nav-link" href="#">EDUCATION</a>
+		      		</li>
+		      		<li class="nav-item">
+		        		<a class="nav-link" href="#">WORK EXPERIENCE</a>
+		      		</li>
+		      		<li class="nav-item">
+		        		<a class="nav-link" href="#">EDUCATION</a>
+		      		</li>
+		      		<li class="nav-item">
+		        		<a class="nav-link" href="#">CONTACT ME</a>
+		      		</li>
+    			</ul>
+  			</div>
+	</nav>
+
+<div class="container">
+
+<section>
+	<div class="row">
+		<div class="col-md-2"></div>
+		<div class="col-xs-12 col-md-8">
+			<div class="placer HomePic">
+				<div class="content">
+					<div class="image_cropper">
+						<img class="profilePic" src="https://scontent.fyxd1-1.fna.fbcdn.net/v/t1.15752-9/68658133_2321479021423484_2452193440004308992_n.jpg?_nc_cat=106&_nc_oc=AQnkPdCjOV9XHnMPfX0RLXGOALPLWgZvooYphiKDr_Bnc2hwAdmvStq9AeKtRk7xjalvJBhVx82E3Uv8pgAJnF6v&_nc_ht=scontent.fyxd1-1.fna&oh=ffc5c5a2c185f30f44575c9c3bd53ca2&oe=5E33C86A">
+					</div>
+					<div class="card card-body introCard">
+						<h1>HELLO, I'M PRIT PATEL</h1>
+						<p id="introPara">A STUDENT WITH A PASSION FOR WEB DEVELOPMENT AND LIFE LONG LEARNING</p>
+						<hr>
+						<a class="btn btn-primary" href="https://www.linkedin.com/in/prit-patel-b74196156?fbclid=IwAR3VunhujM4O-fvriRv1Db4jAs7pk72BazqnQrIEFBSpy9jXh3ooRjaDaxc" role="button">My LinkedIn</a>
+						<a class="btn btn-danger" href="mailto:prit.patel19991@gmail.com?subject=Contacting Prit Patel" role="button">Email me</a>
+						<button type="button" class="btn btn-success">My Resume</button>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<div class="col-md-2"></div>
+	</div>
+</section>
+
+	<section>
+		<div class="card card-body AboutAndBasicInfoCard">
+			<div class="row">
+				<div class="col-xs-12 col-md-6">
+					<div class="card card-body">
+								<h2>About Me...</h2>
+								<p> I'm a student at University of Calgary pursuing an undergraduate degree in Computer Science, in the faculty of Science, with a concentration in Software Engineering. I am directly involved in Software and Web Development as I look to   
+								</p>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<div class="card card-body">
+						<h2>Some Pointers...</h2>
+					</div>
+				</div>						
+			</div>
+		</div>
+	</section>
+</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<script>
+		$(function () {
+			$(document).scroll(function(){
+				var $nav = $("#mainNavBar");
+				$nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+			})
+		})
+	</script>
+
+</body>
+</html>
